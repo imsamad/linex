@@ -1,6 +1,5 @@
 import React from "react";
 import "./globals.css";
-import "nextra-theme-docs/style.css";
 
 export default async function RootLayout({
   children,

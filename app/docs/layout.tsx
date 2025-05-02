@@ -16,6 +16,7 @@ export default async function RootLayout({
       <body>
         <div className="container mx-auto">
           <Layout
+            darkMode={false}
             navbar={navbar}
             pageMap={await getPageMap()}
             docsRepositoryBase="https://github.com/shuding/nextra/tree/main/docs"
